@@ -1,0 +1,17 @@
+D:\E\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\E\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\E\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\E\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\E\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\E\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\E\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\obj\x86\Debug\Interop.APlayerUILib.dll
+D:\E\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\obj\x86\Debug\Interop.APlayerUILib.dll
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache

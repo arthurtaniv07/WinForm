@@ -1,0 +1,12 @@
+
+11:50:31.894[Change]	D:\Program Files\360\360Safe\ipc\galaxy2.dat
+11:50:31.965[CreateFolder]	D:\E\我的项目\MyProject\WinForm_Test_Source\WinForm_Test\bin\Debug\log
+11:50:31.969[CreateFolder]	D:\E\我的项目\MyProject\WinForm_Test_Source\WinForm_Test\bin\Debug\log\FileWatcher2016
+11:50:31.971[CreateFile]	D:\E\我的项目\MyProject\WinForm_Test_Source\WinForm_Test\bin\Debug\log\FileWatcher2016\10_29.txt
+11:50:31.976[Change]	D:\E\我的项目\MyProject\WinForm_Test_Source\WinForm_Test\bin\Debug\log\FileWatcher2016\10_29.txt
+11:50:31.980[Change]	D:\E\我的项目\MyProject\WinForm_Test_Source\WinForm_Test\bin\Debug\log\FileWatcher2016\10_29.txt
+11:50:31.986[Change]	D:\E\我的项目\MyProject\WinForm_Test_Source\WinForm_Test\bin\Debug\log\FileWatcher2016\10_29.txt
+11:50:39.985[Change]	D:\Program Files\360\360Safe\ipc\galaxy2.dat
+11:50:40.116[Change]	D:\Program Files\360\360Safe\ipc\galaxy.dat
+11:50:40.822[Change]	D:\Program Files\360\360Safe\netmon\360netmon.ini
+11:50:46.555[Change]	D:\Program Files\360\360Safe\ipc\galaxy2.dat

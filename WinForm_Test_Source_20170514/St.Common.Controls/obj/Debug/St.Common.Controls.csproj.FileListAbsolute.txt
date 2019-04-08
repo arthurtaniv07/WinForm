@@ -1,0 +1,7 @@
+D:\E\我的项目\MyProject\WinForm_Test_Source\St.Common.Controls\bin\Debug\St.Common.Controls.dll
+D:\E\我的项目\MyProject\WinForm_Test_Source\St.Common.Controls\bin\Debug\St.Common.Controls.pdb
+D:\E\我的项目\MyProject\WinForm_Test_Source\St.Common.Controls\obj\Debug\St.Common.Controls.LrcShow.resources
+D:\E\我的项目\MyProject\WinForm_Test_Source\St.Common.Controls\obj\Debug\St.Common.Controls.UserControl1.resources
+D:\E\我的项目\MyProject\WinForm_Test_Source\St.Common.Controls\obj\Debug\St.Common.Controls.csproj.GenerateResource.Cache
+D:\E\我的项目\MyProject\WinForm_Test_Source\St.Common.Controls\obj\Debug\St.Common.Controls.dll
+D:\E\我的项目\MyProject\WinForm_Test_Source\St.Common.Controls\obj\Debug\St.Common.Controls.pdb

@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>St</name>
+    </assembly>
+    <members>
+        <member name="T:St.StExceptionStack">
+            <summary>
+            St异常帮助类 
+            </summary>
+        </member>
+        <member name="M:St.StExceptionStack.#ctor(System.Exception,System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="e">当前错误对象</param>
+            <param name="otherObj">其他错误的对象实例  可自行设置 通过构造函数</param>
+        </member>
+        <member name="M:St.StExceptionStack.ToString">
+            <summary>
+            获取当前自定义错误的描述
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:St.StExceptionStack.OtherObj">
+            <summary>
+            其他错误的对象实例  可自行设置 通过构造函数
+            </summary>
+        </member>
+        <member name="P:St.StExceptionStack.MothodName">
+            <summary>
+            获取错误代码的方法名称
+            </summary>
+        </member>
+        <member name="P:St.StExceptionStack.Mothod">
+            <summary>
+            获取错误代码的方法信息  同过属性的ToString方法可获取 【返回值类型  方法名称(参数列表)】 的形式
+            </summary>
+        </member>
+        <member name="P:St.StExceptionStack.LineNumber">
+            <summary>
+            获取错误代码的行号
+            </summary>
+        </member>
+        <member name="P:St.StExceptionStack.ColumnNumber">
+            <summary>
+            获取错误代码的列号
+            </summary>
+        </member>
+        <member name="P:St.StExceptionStack.FilePath">
+            <summary>
+            获取错误代码的文件路径
+            </summary>
+        </member>
+        <member name="P:St.StExceptionStack.Exception">
+            <summary>
+            获取指定的 Exception 实例
+            </summary>
+        </member>
+        <member name="P:St.StStackInfo.NamespaceName">
+            <summary>
+            程序集名称
+            </summary>
+        </member>
+        <member name="P:St.StStackInfo.MethodName">
+            <summary>
+            方法名称
+            </summary>
+        </member>
+        <member name="P:St.StStackInfo.MethodParameters">
+            <summary>
+            方法参数  参数名，参数类型
+            </summary>
+        </member>
+        <member name="P:St.StStackInfo.ColIndex">
+            <summary>
+            列号
+            </summary>
+        </member>
+        <member name="P:St.StStackInfo.RowIndex">
+            <summary>
+            行号
+            </summary>
+        </member>
+        <member name="P:St.StStackInfo.FilePath">
+            <summary>
+            所在文件路径
+            </summary>
+        </member>
+        <member name="T:St.StStack">
+            <summary>
+            调用堆栈的信息
+            </summary>
+        </member>
+        <member name="M:St.StStack.CurrentStackInfo">
+            <summary>
+            获取当前栈的信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:St.StStack.GetCurrentStackInfo">
+            <summary>
+            获取当前栈的信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:St.StStack.GetCurrentStackInfo(System.Int32)">
+            <summary>
+            通过跳过指定堆栈数 获取栈的信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:St.StCurrentUser">
+            <summary>
+            当前用户
+            </summary>
+        </member>
+        <member name="P:St.StCurrentUser.Name">
+            <summary>
+            获取已经登录的用户的用户名
+            </summary>
+        </member>
+        <member name="P:St.StCurrentUser.NetworkName">
+            <summary>
+            获取与当前用户关联的网络名称
+            </summary>
+        </member>
+        <member name="T:St.StNetWorkLinkMode">
+            <summary>
+            网络链接方式
+            </summary>
+        </member>
+        <member name="F:St.StNetWorkLinkMode.None">
+            <summary>
+            无网络链接
+            </summary>
+        </member>
+        <member name="F:St.StNetWorkLinkMode.Modem">
+            <summary>
+            通过拨号上网
+            </summary>
+        </member>
+        <member name="F:St.StNetWorkLinkMode.LAN">
+            <summary>
+            通过局域网链接到网络
+            </summary>
+        </member>
+        <member name="F:St.StNetWorkLinkMode.PROXY">
+            <summary>
+            代理
+            </summary>
+        </member>
+        <member name="F:St.StNetWorkLinkMode.MODEM_BUSY">
+            <summary>
+            MODEM被其他非INTERNET连接占用
+            </summary>
+        </member>
+        <member name="F:St.StNetWorkLinkMode.Other">
+            <summary>
+            其他 未知
+            </summary>
+        </member>
+        <member name="T:St.StEnvironment">
+            <summary>
+            包含当前环境的一组方法
+            </summary>
+        </member>
+        <member name="F:St.StEnvironment.LISTEN_TIME_SPAN">
+            <summary>
+            监听间隔
+            </summary>
+        </member>
+        <member name="M:St.StEnvironment.InternetCheckConnection(System.String,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="lpszUrl">连接饿地址</param>
+            <param name="dwFlags">FLAG_ICC_FORCE_CONNECTION</param>
+            <param name="dwReserved">0</param>
+        </member>
+        <member name="M:St.StEnvironment.IsNetworkAlive(System.Int32@)">
+            <summary>
+            检查网络是否连通,需要启动服务
+            </summary>
+            <param name="connectionDescription"></param>
+        </member>
+        <member name="M:St.StEnvironment.IsInternetAlive(System.Int32)">
+            <summary>
+            互联网是否可用，需要服务System Event Notification支持，连接失败或者超过指定等待时间则返回false
+            </summary>
+            <param name="maxSleepTime">等待测试网站的响应时间 最小300 </param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.IsInternetAlive(System.String,System.Int32)">
+            <summary>
+            互联网是否可用，需要服务System Event Notification支持，连接失败或者超过指定等待时间则返回false
+            </summary>
+            <param name="url">网站路径</param>
+            <param name="maxSleepTime">等待测试网站的响应时间 最小300 </param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.GetLocalLinkMode">
+            <summary>
+            判断本地的连接状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.GetLocalIsConn">
+            <summary>
+            判断本地的连接方式 与GetNetWorkLinkMode类似
+            </summary>
+            <param name="linkMode">网络连接方式</param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.GetNetWorkIsConn">
+            <summary>
+            是否连接到万维网  
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.FindProcess(System.String)">
+            <summary>
+            查询进程是否正在运行
+            </summary>
+            <param name="name">进程名称 如：123.exe</param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.GetProcessPath(System.String)">
+            <summary>
+            获取进程的主程序文件路径
+            </summary>
+            <param name="name">进程名称 如：QQ</param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.HiddenDist(System.String,System.Boolean)">
+            <summary>
+            显示或隐藏指定磁盘
+            </summary>
+            <param name="distNames">磁盘名称 中间不用分隔符  如:AB</param>
+            <param name="isShow">是否显示 true:显示  false:隐藏</param>
+        </member>
+        <member name="M:St.StEnvironment.CreateRegistryKey(Microsoft.Win32.RegistryKey,System.String)">
+            <summary>
+            创建指定注册表项(如果不存在)  返回指定注册表项 
+            </summary>
+            <param name="rKey"></param>
+            <param name="path">注册表路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.FindPath(Microsoft.Win32.RegistryKey,System.String)">
+            <summary>
+            创建指定注册表项(如果不存在)  返回指定注册表项 
+            </summary>
+            <param name="rKey"></param>
+            <param name="path">注册表路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.SetValue(Microsoft.Win32.RegistryKey,System.String,System.String)">
+            <summary>
+            为当前注册表设置一个值
+            </summary>
+            <param name="rKey">要操作的注册表项</param>
+            <param name="key">要设置的键</param>
+            <param name="value">要设置的值</param>
+            <returns>写入是否成功</returns>
+        </member>
+        <member name="M:St.StEnvironment.GetValue(Microsoft.Win32.RegistryKey,System.String)">
+            <summary>
+            为当前注册表设置一个值
+            </summary>
+            <param name="rKey">要操作的注册表项</param>
+            <param name="key">要设置的键</param>
+            <param name="value">要设置的值</param>
+            <returns>写入是否成功</returns>
+        </member>
+        <member name="M:St.StEnvironment.RemoveRegistryKeyValue(System.String)">
+            <summary>
+            删除指定注册表项的值(如果存在)  返回指定注册表项 
+            </summary>
+            <param name="path">注册表路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.GetDistNumber(System.Char[])">
+            <summary>
+            获取指定磁盘的编号和
+            </summary>
+            <param name="distNames">要获取磁盘编号的数组</param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.StopProcess(System.String,System.Boolean)">
+            <summary>
+            结束进程 
+            </summary>
+            <param name="name">进程名称</param>
+            <param name="all">是否借书线程下的所有子线程</param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.GetAppPaths(System.String)">
+            <summary>
+            根据exe文件名称获取安装文件路径  如果不存在该程序 则返回空字符串
+            </summary>
+            <param name="name">要获取的安装程序的名称 如：QQ.exe</param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.GetAllAppPath">
+            <summary>
+            获取所有程序的安装文件路径  如果出错则返回null
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.InstallService(System.String)">
+            <summary>  
+            安装服务     （该方法需要程序以管理员身份运行） 
+            </summary>  
+        </member>
+        <member name="M:St.StEnvironment.InstallService(System.Collections.IDictionary,System.String)">
+            <summary>  
+            安装Windows服务   （该方法需要程序以管理员身份运行）   
+            </summary>  
+            <param name="stateSaver">集合</param>  
+            <param name="filepath">程序文件路径 （绝对路径）</param>  
+        </member>
+        <member name="M:St.StEnvironment.UnInstallService(System.String)">
+            <summary>  
+            卸载Windows服务     （该方法需要程序以管理员身份运行） 
+            </summary>  
+            <param name="filepath">程序文件路径</param>  
+        </member>
+        <member name="M:St.StEnvironment.IsServiceIsExisted(System.String)">
+            <summary>  
+            检查服务存在的存在性  
+            </summary>  
+            <param name=" NameService ">服务名 如MYSQL</param>  
+            <returns>存在返回 true,否则返回 false;</returns>  
+        </member>
+        <member name="M:St.StEnvironment.IsServiceStart(System.String)">
+            <summary>  
+            判断某个Windows服务是否启动  
+            </summary>  
+            <returns></returns>  
+        </member>
+        <member name="M:St.StEnvironment.ChangeServiceStartType(System.Int32,System.String)">
+            <summary>    
+            修改服务的启动项 2为自动,3为手动   （该方法需要程序以管理员身份运行） 
+            </summary>    
+            <param name="startType">2为自动,3为手动</param>    
+            <param name="serviceName">服务名称 如MYSQL</param>    
+            <returns></returns>    
+        </member>
+        <member name="M:St.StEnvironment.StartService(System.String,System.Int32)">
+            <summary>
+            启动服务  返回是否成功启动服务  服务不存在不引发异常 （该方法需要程序以管理员身份运行）
+            </summary>
+            <param name="serviceName">服务名称 如MYSQL</param>
+            <param name="seconds">服务停止的秒数 如果超过该时间还未停止目标服务则停止服务失败，切该时间不能超过60或者小于1</param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.StopService(System.String,System.Int32)">
+            <summary>
+            停止服务  返回是否成功停止服务  服务不存在不引发异常 （该方法需要程序以管理员身份运行）
+            </summary>
+            <param name="serviceName">服务名称 如MYSQL</param>
+            <param name="seconds">服务停止的秒数 如果超过该时间还未停止目标服务则停止服务失败，且该时间不能超过60或者小于1</param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.CloseRegistry(Microsoft.Win32.RegistryKey)">
+            <summary>
+            关闭指定注册表项
+            </summary>
+            <param name="registry"></param>
+        </member>
+        <member name="M:St.StEnvironment.OpenSysEnvironment">
+            <summary>
+            获取系统高级设置的环境变量项
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.GetSysEnvironmentByName(System.String)">
+            <summary>
+            获取系统环境变量
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.SetSysEnvironment(System.String,System.String)">
+            <summary>
+            设置系统环境变量
+            </summary>
+            <param name="name">变量名</param>
+            <param name="strValue">值</param>
+        </member>
+        <member name="M:St.StEnvironment.ExistSysEnvironment(System.String)">
+            <summary>
+            检测系统环境变量是否存在
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.SetPath(System.String)">
+            <summary>
+            设置PATH环境变量
+            </summary>
+            <param name="strHome"></param>
+        </member>
+        <member name="M:St.StEnvironment.GetCpuId">
+            <summary>
+            查询CPU编号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.GetMainHardDiskId">
+            <summary>
+            查询硬盘编号（取第一块硬盘号）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.GetNetworkID">
+            <summary>
+            取第一块网卡号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.GetPort(System.Int32)">
+            <summary>
+            获取IIS串口
+            </summary>
+            <param name="portnum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.GetWinDirectory">
+            <summary>
+            获取Windows目录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:St.StEnvironment.GetSysDirectory">
+            <summary>
+            获取系统目录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:St.StEnvironment.IsAspNetApp">
+            <summary>
+            获取一个值，指示当前应用是否是asp.net程序，false:表示当前应用是本地程序
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.FrameworkDirectory">
+            <summary>
+            获取.net框加安装目录
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.IsRunAsAdmin">
+            <summary>
+            获取一个布尔值，指示当前进程是否以administrator身份运行
+            </summary>
+            <returns>
+            </returns>
+        </member>
+        <member name="P:St.StEnvironment.NewLine">
+            <summary>
+            获取当前环境下的换行符
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.RootRegistryKey_User">
+            <summary>
+            获取当前用户的注册表基项
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.RootRegistryKey_PC">
+            <summary>
+            获取当前计算机的注册表基项
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.Runpath">
+            <summary>
+            获取自动运行目录的路径
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.ProcessorCount">
+            <summary>
+            获取当前计算机的处理器核的总数
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.CurrentDirectory">
+            <summary>
+            获取当前程序的工作目录
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.Version">
+            <summary>
+            获取当前操作系统的版本信息的字符串形式
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.CurrentUserName">
+            <summary>
+            获取当前登录并且已激活（正在使用该操作系统）的用户名称
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.CurrentUserDomainName">
+            <summary>
+            获取与当前用户关联的网络域名
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.TickCount">
+            <summary>
+            获取系统启动后经过的毫秒数
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.SystemPageSize">
+            <summary>
+            获取系统启动后经过的PageSize
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.SystemBit">
+            <summary>
+            获取系统的位数 （位宽）
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.Cpu">
+            <summary>
+            获取CPU信息
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.Memory">
+            <summary>
+            获取系统内存信息
+            </summary>
+        </member>
+        <member name="P:St.StEnvironment.OperationSystemName">
+            <summary>
+            获取系统名称
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:St.StEnvironment.MemoryInfo">
+            <summary>
+            定义内存的信息结构
+            </summary>
+        </member>
+        <member name="F:St.StEnvironment.MemoryInfo.dwLength">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:St.StEnvironment.MemoryInfo.dwMemoryLoad">
+            <summary>
+            已经使用的内存
+            </summary>
+        </member>
+        <member name="F:St.StEnvironment.MemoryInfo.dwTotalPhys">
+            <summary>
+            总物理内存大小
+            </summary>
+        </member>
+        <member name="F:St.StEnvironment.MemoryInfo.dwAvailPhys">
+            <summary>
+            可用物理内存大小
+            </summary>
+        </member>
+        <member name="F:St.StEnvironment.MemoryInfo.dwTotalPageFile">
+            <summary>
+            交换文件总大小
+            </summary>
+        </member>
+        <member name="F:St.StEnvironment.MemoryInfo.dwAvailPageFile">
+            <summary>
+            可用交换文件大小
+            </summary>
+        </member>
+        <member name="F:St.StEnvironment.MemoryInfo.dwTotalVirtual">
+            <summary>
+            总虚拟内存大小
+            </summary>
+        </member>
+        <member name="F:St.StEnvironment.MemoryInfo.dwAvailVirtual">
+            <summary>
+            可用虚拟内存大小
+            </summary>
+        </member>
+        <member name="T:St.StEnvironment.CpuInfo">
+            <summary>
+            定义CPU的信息结构
+            </summary>
+        </member>
+        <member name="F:St.StEnvironment.CpuInfo.dwTotalVirtual">
+            <summary>
+            总内存
+            </summary>
+        </member>
+        <member name="F:St.StEnvironment.CpuInfo.dwAvailVirtual">
+            <summary>
+            可使用的物理内存
+            </summary>
+        </member>
+    </members>
+</doc>

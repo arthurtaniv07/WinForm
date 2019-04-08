@@ -1,0 +1,135 @@
+
+.tips-old { position: relative; z-index: 10; }
+.tips-old div { position: absolute; z-index: 12; top: 0px; right: -6px; width: 85px; height: 92px; background: url('//cdn.kuaidi100.com/images/tips_old.png') -415px 0 no-repeat #fff; }
+.tips-old a { position: absolute; right: 10px; top: 0px; width: 70px; height: 55px; }
+.container { position: relative; background: url('//cdn.kuaidi100.com/images/bg_new.png') center 0 no-repeat; }
+.section { width: 610px; margin: 0 auto; padding-top: 90px; min-height: 430px; _height: 430px; }
+.search-box { position: relative; z-index: 5; }
+.search-box .inp-metro { padding: 9px 8px; width: 464px; height: 24px; line-height: 24px; font-size: 16px; border: 1px solid #448ef3; }
+.search-box .btn-query { width: 128px; height: 44px; line-height: 44px; font-size: 18px; text-indent: 60px; color: #fff; background: url('//cdn.kuaidi100.com/images/ico_index.png') 13px -551px no-repeat #448ef3; }
+.search-box a.btn-query:hover { text-decoration: none; background: url('//cdn.kuaidi100.com/images/ico_index.png') 13px -551px no-repeat #2682ff; }
+.input-tips { position: absolute; top: 44px; left: 0px; display: none; padding-top: 10px; width: 480px; border: 1px solid #BCBCBC; background-color: #fff; }
+.input-tips li.selection { padding-left: 10px; width: 470px; line-height: 2em; font-size: 16px; font-weight: bold; overflow: hidden; cursor: pointer; transition: color 0.2s linear, background-color 0.2s linear; -webkit-transition: color 0.2s linear, background-color 0.2s linear; -moz-transition: color 0.2s linear, background-color 0.2s linear; }
+.input-tips li.selection0 { color: #333; }
+.input-tips li.selection1 { color: #777; }
+.input-tips li.selection2 { color: #b4b4b4; }
+.input-tips li.selection3 { color: #d1d1d1; }
+.input-tips li.hover { color: #333333; background-color: #fff2c5; }
+.input-tips li.tips_bottom { padding: 2px 5px; text-align: right; color: #b4b4b4; }
+.btn-location { position: absolute; top: 7px; left: 445px; display: block; width: 30px; height: 30px; background: url('//cdn.kuaidi100.com/images/ico_index.png') -10px -110px no-repeat #fff; }
+.add-btn { margin-left: 50px; padding-left: 20px; background: url('//cdn.kuaidi100.com/images/ico_index.png') -15px -613px no-repeat; }
+/*select*/
+.select-com { margin-top: 30px; padding-left: 7px; height: 20px; font-size: 14px; font-weight: bold; }
+.select-com a#selectComBtn { padding-right: 24px; cursor: pointer; background: url('//cdn.kuaidi100.com/images/ico_auto.png') right -271px no-repeat; _background: url('//cdn.kuaidi100.com/images/ico_auto.png') right -275px no-repeat; }
+.select-com span { margin-right: 10px; padding: 2px 0px 2px 24px; }
+.select-com .ico-tel { background: url('//cdn.kuaidi100.com/images/ico_index.png') -10px -413px no-repeat; }
+.select-com .ico-clock { background: url('//cdn.kuaidi100.com/images/ico_index.png') -10px -463px no-repeat; }
+.select-com .ico-date { background: url('//cdn.kuaidi100.com/images/ico_index.png') -10px -513px no-repeat; }
+.select-com span.download-qr { margin-right: 0px; }
+.select-com span.download-qr img { position:absolute; top: -5px; right: -125px; }
+/*result*/
+.result-top { width: 608px; height: 43px; background-color: #fbfbfb; border: 1px solid #90bfff; border-bottom: none; }
+.result-top span, .result-top a { display: inline-block; height: 43px; line-height: 43px; vertical-align: middle; font-size: 14px; }
+.result-top a { padding-left: 23px; width: 37px; font-weight: bold; color: #448ef3; }
+.result-top .a-rss { background: url('//cdn.kuaidi100.com/images/ico_index.png') -15px -303px no-repeat; }
+.result-top .a-share { background: url('//cdn.kuaidi100.com/images/ico_index.png') -12px -353px no-repeat; }
+.result-top .col1 { width: 184px; text-align: center; font-weight: bold; border-right: 1px solid #ddd; color: #333; }
+.result-top .col2 { width: 303px; text-align: center; font-weight: bold; color: #333; }
+.result-info2 { width: 610px; border-top: 1px solid #ddd; }
+/*result-qr*/
+.qr-box { border: 1px solid #90bfff; padding: 10px 0;}
+.qr-box .qr-ad { float: left; margin: 0 9px; width: 350px; }
+.qr-box .qr-content { float: right; width: 240px; height: 120px; }
+.qr-box .qr-l { float: left; width: 110px; text-align: center; word-wrap: break-word; }
+.qr-box .qr-r { float: right; width: 110px; padding: 15px 10px; }
+.qr-box img { border: 3px solid #d9e2f2; }
+.qr-box p { line-height: 20px; font-size: 14px; color: #878787; }
+.qr-box p a { color: #448ef3; }
+.qr-sf { position:absolute; top:0; left:-102px; width:92px; height:122px; background:url('//cdn.kuaidi100.com/images/qrcode/sf_2.png') 0 0 no-repeat; }
+.ps-box { padding:6px 20px; text-align:center; font-size:14px; color:#aaa;}
+/*notfind*/
+.notfind { padding: 10px 20px; border: 1px solid #dfdfdf; background-color: #fbfbfb;}
+.notfind-body { background: url('//cdn.kuaidi100.com/images/ico_auto.png') 0px 5px no-repeat; }
+.notfind-icon { padding-bottom: 10px; font-size: 18px; line-height: 1.8em; text-align: center; color: #ff7f02; border-bottom: 1px dashed #ddd; background: url('//cdn.kuaidi100.com/images/ico_auto.png') 165px -113px no-repeat; }
+.notfind-ul { padding-top: 15px; padding-left: 50px; }
+.notfind-ul li { float: left; width: 200px; padding-left: 50px; color: #333; }
+.notfind-taobao { margin: 20px auto 10px; padding-left: 50px; width: 230px; background: url('//cdn.kuaidi100.com/images/user/ico_taobao/tt.png') 0 1px no-repeat; }
+.ico_wrong { background: url('//cdn.kuaidi100.com/images/ico_auto.png') 0px -210px no-repeat; }
+.ico_right { background: url('//cdn.kuaidi100.com/images/ico_auto.png') 0px -160px no-repeat; }
+/*转发*/
+.send-box .inp-send, .send-box .inp-send2 { width: 454px; }
+/*公司列表*/
+.select-box { position: relative; margin-top: 4px; background-color: #fff; border: 1px solid #b9d0f0; _zoom: 1; }
+.other-com { position: absolute; top: -29px; left: -1px; display: block; height: 22px; height: 22px; padding: 3px 30px; font-size: 14px; font-weight: bold; cursor: pointer; border: 1px solid #b9d0f0; border-bottom: 1px solid #fff; background: url('//cdn.kuaidi100.com/images/ico_auto.png') -40px -267px no-repeat #fff; _background: url('//cdn.kuaidi100.com/images/ico_auto.png') -36px -270px no-repeat #fff; }
+.com-list .suggest { margin-top: 10px; font-size: 14px; background-color: #fff1e4; }
+.com-list .suggest .li-title { display: inline-block; margin-right: 4px; width: 26px; height: 36px; line-height: 18px; text-align: center; vertical-align: middle; color: #fff; background-color: #ff9e40; }
+.com-list .suggest a { display: inline-block; min-width: 60px; height: 36px; padding: 0 2px; line-height: 36px; vertical-align: middle; color: #333; cursor: pointer; }
+.com-list .suggest a:hover { text-decoration: none; color: #fff; background-color: #6ba3e9; }
+.com-list .common { padding: 6px 0; font-size: 14px }
+.com-list .common .li-title { display: inline-block; margin-right: 4px; width: 26px; height: 27px; line-height: 27px; text-align: center; vertical-align: middle; color: #87a3db }
+.com-list .common a { display: inline-block; width: 60px; height: 26px; padding: 0 2px; line-height: 26px; vertical-align: middle; color: #333; cursor: pointer; }
+.com-list .common a:hover { text-decoration: none; color: #fff; background-color: #6ba3e9 }
+.com-list .all-list { width: 304px; border-top: 1px solid #e3e3e3; _zoom: 1; }
+.com-list .all-list li { height: 27px; background-color: #fcfcfc }
+.com-list .all-list li.dl-bg { background-color: #f1f1f1 }
+.com-list .all-list li:hover, .com-list li.dl-bg:hover { background-color: #e4efff }
+.com-list .all-list .li-title { display: inline-block; width: 30px; height: 27px; line-height: 27px; text-align: center; vertical-align: middle; font-size: 16px; color: #87a3db }
+.com-list .all-list li a { display: inline-block; height: 27px; width: 85px; padding: 0 2px; line-height: 27px; vertical-align: middle; color: #333; cursor: pointer; }
+.com-list .all-list li a:hover { text-decoration: none; color: #fff; background-color: #6ba3e9 }
+.com-list .other { padding: 5px 0; text-align:center; border-top:1px solid #e3e3e3; }
+/*common*/
+.close-box { position: relative; width: 608px; border: 1px solid #d4d4d4; }
+.close-box .close-btn { position: absolute; z-index: 3; top: -10px; right: -10px; display: block; width: 20px; height: 20px; background: url('//cdn.kuaidi100.com/images/ico_index.png') -15px -66px no-repeat; }
+.common-box { margin-top: 30px; height: 260px; border: 1px solid #448ef3; background-color: #fff; }
+.common-tag { position: relative; height: 37px; }
+.common-tag a { position: absolute; top: -1px; width: 121px; height: 36px; line-height: 36px; text-align: center; font-size: 14px; color: #333; border: 1px solid #d4d4d4; border-bottom: 1px solid #448ef3; }
+.common-tag .tag-select { z-index: 2; height: 34px; line-height: 32px; color: #448ef3; border: 1px solid #448ef3; border-top: 4px solid #448ef3; border-bottom: 0; }
+.common-tag .tag-1 { left: -1px; }
+.common-tag .tag-2 { left: 121px; }
+.common-tag .tag-3 { left: 243px; }
+.common-tag .tag-4 { left: 365px; }
+.common-tag .tag-5 { left: 487px; width: 120px; }
+.common-box .common-list { padding: 15px 0 0 30px; }
+.common-box .common-list h4 { padding-left: 20px; height: 28px; line-height: 28px; font-size: 14px; color: #f11; background: url('//cdn.kuaidi100.com/images/ico_index.png') -15px -10px no-repeat; }
+.common-box .common-list h4 em { font-style: normal; }
+.common-box .common-list p { padding: 5px 0; height: 22px; line-height: 22px; }
+.common-box .common-list a { display: inline-block; margin-right: 10px; padding-left: 24px; width: 60px; font-size: 14px; vertical-align: middle; color: #333; }
+.common-box .common-net { margin-top: 20px; }
+.common-box .common-net a { width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.common-box .common-list label { display: inline-block; padding-left: 24px; width: 80px; font-size: 14px; vertical-align: middle; }
+.common-box .common-list span { display: inline-block; width: 110px; margin-right: 60px; font-size: 14px; vertical-align: middle; }
+.common-box .common-list a.a-blue { margin-right: 30px; padding: 0; width: 78px; text-align: center; color: #fff; background-color: #448ef3; }
+.common-box .common-list a.a-blue:hover { text-decoration: none; background-color: #2682ff; }
+.common-box .common-eb { float:left; padding: 15px 50px 0 20px; text-align: center; }
+.common-box .common-eb h5 { padding-bottom: 10px; font-size: 18px; color: #333; }
+.common-box .common-eb a { padding-top: 90px; padding-left: 0; margin-right: 0; width: 100px; text-decoration: underline; font-size: 14px; color: #333; }
+.common-box .common-eb a:hover { color: #448ef3; }
+.common-box .common-eb a.a-tb { background: url('//cdn.kuaidi100.com/images/ico_circle.png') center -5px no-repeat; }
+.common-box .common-eb a.a-api { background: url('//cdn.kuaidi100.com/images/ico_circle.png') center -155px no-repeat; }
+.common-box .common-eb a.a-kis { background: url('//cdn.kuaidi100.com/images/ico_circle.png') center -305px no-repeat; }
+.common-box .common-eb a.a-feidee { background: url('//cdn.kuaidi100.com/images/ico_circle.png?v=20130606') center -450px no-repeat; }
+.common-box .common-eb strong { margin:0 10px; font-size:16px; }
+/*ad*/
+.ad-box h3 { padding: 20px 10px 10px; font-size: 16px; color: #333; }
+.ad-box .close-box { height: 135px; }
+#queryQrNum{height: 20px;overflow: hidden;display: block;width: 150px; text-align:left; padding-left:5px}
+/*foot-link*/
+.foot-link { margin-top: 30px; height: 285px; background-color: #eef4fe; }
+.foot-link .partner-box { padding: 0 50px; width: 240px; height: 230px; border-left: 1px solid #fff; }
+.foot-link .partner-box h4 { margin: 25px 0 5px; font-size: 14px; }
+.foot-link .partner-box p { position:relative; }
+.foot-link .partner-box p a.a-dianxin { position:absolute; top:0; right:0; display:block; width:65px; height:20px; }
+.foot-link dl { padding-top: 50px; width: 157px; height: 200px; border-left: 1px solid #fff; }
+.foot-link dt { margin-bottom: 20px; text-align: center; font-size: 14px; font-weight: bold; }
+.foot-link dd { padding-left: 56px; }
+.foot-link dd a { color: #777; }
+.foot-link .m-box { padding-top: 70px; width: 143px; height: 190px; text-align: center; border-left: 1px solid #fff; border-right: 1px solid #fff; }
+.foot-link .m-box .a-wb, .foot-link .m-box .a-wx, .foot-link .m-box .a-app { display: inline-block; margin-top: 10px; width: 30px; height: 30px; }
+.foot-link .m-box .a-wb { background: url('//cdn.kuaidi100.com/images/ico_index.png') -10px -161px no-repeat; }
+.foot-link .m-box .a-wx { background: url('//cdn.kuaidi100.com/images/ico_index.png') -8px -210px no-repeat; }
+.foot-link .m-box .a-app { background: url('//cdn.kuaidi100.com/images/ico_index.png') -10px -260px no-repeat; }
+/*浮动*/
+.fullscreen { position: fixed; top: 0; left: 0; z-index: 99; width: 100%; height: 100%; _position: absolute; _top:expression(eval(document.documentElement.scrollTop));}
+.fullscreen .full-bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000; opacity: 0.6; filter: alpha(opacity=60); _display: none; }
+.fullscreen .full-body { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.fullscreen .send-box { margin: 450px auto 0; width: 592px; background-color: #fff; }

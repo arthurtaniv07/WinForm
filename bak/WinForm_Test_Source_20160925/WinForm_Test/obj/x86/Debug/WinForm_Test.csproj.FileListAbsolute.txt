@@ -1,0 +1,72 @@
+c:\users\ts-001\documents\visual studio 2010\Projects\WinForm_Test\WinForm_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ts-001\documents\visual studio 2010\Projects\WinForm_Test\WinForm_Test\obj\x86\Debug\WinForm_Test.Properties.Resources.resources
+c:\users\ts-001\documents\visual studio 2010\Projects\WinForm_Test\WinForm_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\ts-001\documents\visual studio 2010\Projects\WinForm_Test\WinForm_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\ts-001\documents\visual studio 2010\Projects\WinForm_Test\WinForm_Test\bin\Debug\WinForm_Test.exe
+c:\users\ts-001\documents\visual studio 2010\Projects\WinForm_Test\WinForm_Test\bin\Debug\WinForm_Test.pdb
+c:\users\ts-001\documents\visual studio 2010\Projects\WinForm_Test\WinForm_Test\bin\Debug\TP.MyDateTime.dll
+c:\users\ts-001\documents\visual studio 2010\Projects\WinForm_Test\WinForm_Test\bin\Debug\TP.MyDateTime.pdb
+c:\users\ts-001\documents\visual studio 2010\Projects\WinForm_Test\WinForm_Test\obj\x86\Debug\WinForm_Test.exe
+c:\users\ts-001\documents\visual studio 2010\Projects\WinForm_Test\WinForm_Test\obj\x86\Debug\WinForm_Test.pdb
+C:\Users\Arthur\Desktop\WinForm_Test\WinForm_Test\bin\Debug\WinForm_Test.exe.config
+C:\Users\Arthur\Desktop\WinForm_Test\WinForm_Test\bin\Debug\WinForm_Test.exe
+C:\Users\Arthur\Desktop\WinForm_Test\WinForm_Test\bin\Debug\WinForm_Test.pdb
+C:\Users\Arthur\Desktop\WinForm_Test\WinForm_Test\bin\Debug\St.Common.dll
+C:\Users\Arthur\Desktop\WinForm_Test\WinForm_Test\bin\Debug\St.IO.dll
+C:\Users\Arthur\Desktop\WinForm_Test\WinForm_Test\bin\Debug\St.Mail.dll
+C:\Users\Arthur\Desktop\WinForm_Test\WinForm_Test\obj\x86\Debug\WinForm_Test.Form2.resources
+C:\Users\Arthur\Desktop\WinForm_Test\WinForm_Test\obj\x86\Debug\WinForm_Test.Properties.Resources.resources
+C:\Users\Arthur\Desktop\WinForm_Test\WinForm_Test\obj\x86\Debug\WinForm_Test.csproj.GenerateResource.Cache
+C:\Users\Arthur\Desktop\WinForm_Test\WinForm_Test\obj\x86\Debug\WinForm_Test.exe
+C:\Users\Arthur\Desktop\WinForm_Test\WinForm_Test\obj\x86\Debug\WinForm_Test.pdb
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\bin\Debug\WinForm_Test.exe.config
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\bin\Debug\WinForm_Test.exe
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\bin\Debug\WinForm_Test.pdb
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\bin\Debug\St.Common.dll
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\bin\Debug\St.IO.dll
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\bin\Debug\St.Mail.dll
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\bin\Debug\St.dll
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\bin\Debug\St.IO.pdb
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\bin\Debug\St.Mail.pdb
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.Main.resources
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.Properties.Resources.resources
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.csproj.GenerateResource.Cache
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.exe
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.pdb
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\bin\Debug\WinForm_Test.exe.config
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\bin\Debug\WinForm_Test.exe
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\bin\Debug\WinForm_Test.pdb
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\bin\Debug\St.Common.dll
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\bin\Debug\St.IO.dll
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\bin\Debug\St.Mail.dll
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\bin\Debug\St.dll
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\bin\Debug\St.IO.pdb
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\bin\Debug\St.Mail.pdb
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.Form2.resources
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.HappyBirthday.resources
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.Main.resources
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.Properties.Resources.resources
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.csproj.GenerateResource.Cache
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.exe
+F:\Users\Arthur\Desktop\DateHelper_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.pdb
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\bin\Debug\St.Web.dll
+C:\Users\Arthur\Desktop\WinForm_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.csprojResolveAssemblyReference.cache
+D:\E\我的项目\MyProject\WinForm_Test_Source\WinForm_Test\bin\Debug\WinForm_Test.exe.config
+D:\E\我的项目\MyProject\WinForm_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.exe
+D:\E\我的项目\MyProject\WinForm_Test_Source\WinForm_Test\obj\x86\Debug\WinForm_Test.pdb
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\bin\Debug\WinForm_Test.exe.config
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\obj\x86\Debug\WinForm_Test.exe
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\obj\x86\Debug\WinForm_Test.pdb
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\bin\Debug\WinForm_Test.exe
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\bin\Debug\WinForm_Test.pdb
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\bin\Debug\St.Common.dll
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\bin\Debug\St.IO.dll
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\bin\Debug\St.Mail.dll
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\bin\Debug\St.Web.dll
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\bin\Debug\St.dll
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\bin\Debug\St.IO.pdb
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\bin\Debug\St.Mail.pdb
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\obj\x86\Debug\WinForm_Test.csprojResolveAssemblyReference.cache
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\obj\x86\Debug\WinForm_Test.Main.resources
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\obj\x86\Debug\WinForm_Test.Properties.Resources.resources
+C:\Users\Ly\Desktop\Arthur\我的项目\MyProject\WinForm_Test_Source\bak\WinForm_Test_Source_20160925\WinForm_Test\obj\x86\Debug\WinForm_Test.csproj.GenerateResource.Cache

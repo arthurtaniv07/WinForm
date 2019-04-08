@@ -1,0 +1,41 @@
+
+/*公司提示*/
+.companyinfo{height:30px;display:none}
+.companyinfo a{font-size:14px;color:#F60}
+/*转发*/
+.send-box{padding:8px;line-height:40px;border:1px solid #DDD;}
+.send-box div{line-height:22px}
+.send-box hr{border:1px dotted #DDD}
+.inp-send{padding:5px 4px;height:18px;line-height:18px;font:12px Verdana;border:1px solid #BCBCBC}
+.inp-send2{width:424px;height:80px;padding:5px 4px;font:12px Verdana;resize:none;line-height:20px;border:1px solid #BCBCBC}
+.btn-copy{width:56px;height:30px;line-height:30px;*line-height:26px;_line-height:30px;font-weight:bold;font-size:12px;text-align:center;cursor:pointer;letter-spacing:1px;overflow:hidden;border:0px;color:#FFF;background-color:#81BE01}
+.send-box .hover{background-color:#9edb1d}
+/*订阅*/
+#rssTips{border:1px solid #499B1F;background-color:#E7F4BE}
+#rssTipsTxt{color:#499B1F}
+#rssTipsTxt a{margin-left:5px;color:#499B1F}
+/*查询输入框-css*/
+.vali-images{display:block;float:left;height:34px;width:100px;text-align:center;margin-top:0px;margin-top:3px;background:url('//cdn.kuaidi100.com/images/ajax-loader_2.gif') no-repeat center;border:1px solid #DDD}
+.vali-images img{cursor:pointer}
+.refresh-a{margin:10px 0px 0px 14px}
+/*查询结果框*/
+.result-info2{width:580px;border:1px solid #90bfff}
+.result-info2 td{padding:10px;color:#878787;border-bottom:1px solid #d8d8d8;background-color:#fbfbfb}
+.result-info2 .status{width:30px;background:url('https://cdn.kuaidi100.com/images/ico_status.gif') -50px center no-repeat #fbfbfb}
+.result-info2 .status{width:30px;background:url('https://cdn.kuaidi100.com/images/ico_status.gif') -50px center no-repeat #fbfbfb}
+.result-info2 .status-first{background:url('https://cdn.kuaidi100.com/images/ico_status.gif') 0px center no-repeat #fbfbfb}
+.result-info2 .status-check{background:url('https://cdn.kuaidi100.com/images/ico_status.gif') -150px center no-repeat #fbfbfb}
+.result-info2 .status-wait{background:url('https://cdn.kuaidi100.com/images/ico_status.gif') -100px center no-repeat #fbfbfb}
+.result-info2 .last td{color:#FF8c00;border-bottom:none;background-color:#ffffff}
+.result-info2 .row1{width:140px;text-align:right;}
+
+/*订阅短信按钮*/
+.rss-btn-out,.rss-btn-over,.rss-btn-hidden{display:inline-block;width:20px;height:20px;margin-right:5px;_margin-top:6px;line-height:30px;text-decoration:none;vertical-align:middle;}
+.rss-btn-hidden{visibility:hidden;}
+.rss-btn-out span,.rss-btn-over span{display:block;width:20px;height:20px;cursor:pointer;}
+.rss-btn-over{background:url('//cdn.kuaidi100.com/images/ico_tel.gif') 0px -80px no-repeat;}
+.rss-btn-not{background:url('//cdn.kuaidi100.com/images/ico_tel.gif') 0px 0px no-repeat;}
+.rss-btn-ing{background:url('//cdn.kuaidi100.com/images/ico_tel.gif') 0px -20px no-repeat;}
+.rss-btn-cancel{background:url('//cdn.kuaidi100.com/images/ico_tel.gif') 0px -40px no-repeat;}
+.rss-btn-end{background:url('//cdn.kuaidi100.com/images/ico_tel.gif') 0px -60px no-repeat;}
+.float-num{position:absolute;top:-10px;right:-1px;width:16px;height:16px;line-height:16px;text-align:center;color:#FFF;background-color:#FEA03E;border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;-o-border-radius:8px}
